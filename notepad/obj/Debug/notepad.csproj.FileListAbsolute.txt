@@ -1,0 +1,9 @@
+c:\users\parse300\documents\visual studio 2012\Projects\notepad\notepad\bin\Debug\notepad.exe.config
+c:\users\parse300\documents\visual studio 2012\Projects\notepad\notepad\bin\Debug\notepad.exe
+c:\users\parse300\documents\visual studio 2012\Projects\notepad\notepad\bin\Debug\notepad.pdb
+c:\users\parse300\documents\visual studio 2012\Projects\notepad\notepad\obj\Debug\notepad.csprojResolveAssemblyReference.cache
+c:\users\parse300\documents\visual studio 2012\Projects\notepad\notepad\obj\Debug\notepad.Form1.resources
+c:\users\parse300\documents\visual studio 2012\Projects\notepad\notepad\obj\Debug\notepad.Properties.Resources.resources
+c:\users\parse300\documents\visual studio 2012\Projects\notepad\notepad\obj\Debug\notepad.csproj.GenerateResource.Cache
+c:\users\parse300\documents\visual studio 2012\Projects\notepad\notepad\obj\Debug\notepad.exe
+c:\users\parse300\documents\visual studio 2012\Projects\notepad\notepad\obj\Debug\notepad.pdb
