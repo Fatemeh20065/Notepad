@@ -238,5 +238,17 @@ namespace notepad
 
             Application.Exit(); 
         }
+
+        private void findToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FindReplaceform FRM = new FindReplaceform(textBox1);
+            FRM.ShowDialog();
+        }
+
+        private void reaplaceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FindReplaceform FRM = new FindReplaceform(textBox1);
+            FRM.ShowDialog();
+        }
     }
 }

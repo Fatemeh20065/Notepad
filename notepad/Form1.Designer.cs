@@ -73,6 +73,8 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.findToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reaplaceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -195,7 +197,9 @@
             this.pasteToolStripMenuItem,
             this.toolStripSeparator4,
             this.selectAllToolStripMenuItem,
-            this.toolStripSeparator6});
+            this.toolStripSeparator6,
+            this.findToolStripMenuItem,
+            this.reaplaceToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(47, 24);
             this.editToolStripMenuItem.Text = "&Edit";
@@ -280,14 +284,14 @@
             // customizeToolStripMenuItem
             // 
             this.customizeToolStripMenuItem.Name = "customizeToolStripMenuItem";
-            this.customizeToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.customizeToolStripMenuItem.Size = new System.Drawing.Size(147, 24);
             this.customizeToolStripMenuItem.Text = "&Customize";
             this.customizeToolStripMenuItem.Click += new System.EventHandler(this.customizeToolStripMenuItem_Click);
             // 
             // optionsToolStripMenuItem
             // 
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(147, 24);
             this.optionsToolStripMenuItem.Text = "&Options";
             this.optionsToolStripMenuItem.Click += new System.EventHandler(this.optionsToolStripMenuItem_Click);
             // 
@@ -351,30 +355,30 @@
             // contentsToolStripMenuItem
             // 
             this.contentsToolStripMenuItem.Name = "contentsToolStripMenuItem";
-            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(136, 24);
             this.contentsToolStripMenuItem.Text = "&Contents";
             // 
             // indexToolStripMenuItem
             // 
             this.indexToolStripMenuItem.Name = "indexToolStripMenuItem";
-            this.indexToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.indexToolStripMenuItem.Size = new System.Drawing.Size(136, 24);
             this.indexToolStripMenuItem.Text = "&Index";
             // 
             // searchToolStripMenuItem
             // 
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(136, 24);
             this.searchToolStripMenuItem.Text = "&Search";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(133, 6);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(136, 24);
             this.aboutToolStripMenuItem.Text = "&About...";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -397,6 +401,20 @@
             // printDialog1
             // 
             this.printDialog1.UseEXDialog = true;
+            // 
+            // findToolStripMenuItem
+            // 
+            this.findToolStripMenuItem.Name = "findToolStripMenuItem";
+            this.findToolStripMenuItem.Size = new System.Drawing.Size(165, 24);
+            this.findToolStripMenuItem.Text = "Find";
+            this.findToolStripMenuItem.Click += new System.EventHandler(this.findToolStripMenuItem_Click);
+            // 
+            // reaplaceToolStripMenuItem
+            // 
+            this.reaplaceToolStripMenuItem.Name = "reaplaceToolStripMenuItem";
+            this.reaplaceToolStripMenuItem.Size = new System.Drawing.Size(165, 24);
+            this.reaplaceToolStripMenuItem.Text = "Replace";
+            this.reaplaceToolStripMenuItem.Click += new System.EventHandler(this.reaplaceToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -461,6 +479,8 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.PrintDialog printDialog1;
         private System.Drawing.Printing.PrintDocument printDocument1;
+        private System.Windows.Forms.ToolStripMenuItem findToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reaplaceToolStripMenuItem;
     }
 }
 
